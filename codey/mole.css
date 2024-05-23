@@ -9,20 +9,24 @@ body {
     width: 540px;
     height: 540px;
     background-color: crimson;
-
+/* Sets the size of the game board */
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 
     background: url("/textures/soil.png");
+    /* adds soil texture to area */
     background-size: cover;
     border: 4px solid seagreen;
+    /* adds the green boarder pluss adds curves at edges */
     border-radius: 15px;
+
 }
 
 #board div {
     width: 180px;
     height: 180px;
+    /* sets size of the moole holes */
     background-image: url("/textures/molemound.png");
     background-size: cover;
     image-rendering: pixelated;
